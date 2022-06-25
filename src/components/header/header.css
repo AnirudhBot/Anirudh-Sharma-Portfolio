@@ -1,7 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
     overflow: hidden;
+    margin-top: 5rem;
 }
 
 .header_container {
@@ -38,17 +37,19 @@ header {
 }
 
 /****************ME*******************/
-.me {
-    background: var(--color-primary);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+.me-2 {
+    margin: 4rem 0;
+    padding: 0 15vw;
 }
+
+.me-2 h1 {
+    margin-bottom: 1.5rem;
+}
+
+.me-2 h4 {
+    word-spacing: 2px;
+}
+
 
 /****************SCROLL DOWN*******************/
 .scroll_down {
@@ -64,17 +65,22 @@ header {
 /********** MEDIA QUERIES (MEDIUM DEVICES) ***********/
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
-    }
+        margin-bottom: 12vh;
+    };
 }
 
 /********** MEDIA QUERIES (SMALL DEVICES) ***********/
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
-
     .header_socials,.scroll_down {
         display: none;
+    }
+
+    .me-2 {
+        margin: 4rem 0;
+        padding: 0 5vw;
+    }
+
+    .me-2 h1 {
+        font-size: 1.5rem;
     }
 }
