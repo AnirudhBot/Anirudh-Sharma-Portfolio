@@ -78,7 +78,7 @@ const Experience = () => {
               <MdVerified className="experience_details-icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
