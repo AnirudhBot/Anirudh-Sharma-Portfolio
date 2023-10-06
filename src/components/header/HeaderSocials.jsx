@@ -7,10 +7,10 @@ import {BsTwitter} from 'react-icons/bs'
 const HeaderSocials = () => {
   return (
     <div className="header_socials">
-      <a href="https://www.linkedin.com/in/anirudh-sharma-24516b215/" target="_blank"><BsLinkedin /></a>
-      <a href="https://github.com/AnirudhBot" target="_blank"><BsGithub /></a>
-      <a href="https://twitter.com/bot_Anirudh" target="_blank"><BsTwitter /></a>
-      <a href="https://leetcode.com/anirudh_dtu/" target="_blank"><SiLeetcode /></a>
+      <a href="https://www.linkedin.com/in/anirudh-sharma-24516b215/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+      <a href="https://leetcode.com/anirudh_dtu/" target="_blank" rel="noreferrer"><SiLeetcode /></a>
+      <a href="https://github.com/AnirudhBot" target="_blank" rel="noreferrer"><BsGithub /></a>
+      <a href="https://twitter.com/bot_Anirudh" target="_blank" rel="noreferrer"><BsTwitter /></a>
     </div>
   );
 };
