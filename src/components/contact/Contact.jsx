@@ -11,7 +11,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_orwm0xl', 'template_y7p8dyc', form.current, 'Iv6_iXWvKDyw_ocjr')
+    emailjs.sendForm(
+      "service_orwm0xl",
+      "template_y7p8dyc",
+      form.current,
+      "Iv6_iXWvKDyw_ocjr"
+    );
 
     e.target.reset();
   };
@@ -27,7 +32,11 @@ const Contact = () => {
             <MdEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>anirudh1304@gmail.com</h5>
-            <a href="mailto:anirudh1304@gmail.com" target="_blank">
+            <a
+              href="mailto:anirudh1304@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -38,6 +47,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/anirudh-sharma-24516b215/"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>

@@ -12,7 +12,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={Me} alt="About Image" />
+            <img src={Me} alt="Me" />
           </div>
         </div>
 
@@ -31,7 +31,11 @@ const About = () => {
           </div>
 
           <p>
-            My name is Anirudh and I'm currently a student specializing in building Full-Stack Web applications. I started web development in my freshman year and have acquired a strong knowledge in this domain over time. I wish to gain maximum expertise in this field and work as a software engineer post my graduation in 2024.  
+            My name is Anirudh and I'm currently a student specializing in
+            building Full-Stack Web applications. I started web development in
+            my freshman year and have acquired a strong knowledge in this domain
+            over time. I wish to gain maximum expertise in this field and work
+            as a software engineer post my graduation in 2024.
           </p>
         </div>
       </div>
