@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container header_container">
         <h5 className="text-light">Hello I'm</h5>
         <h1>Anirudh Sharma</h1>
-        <h5>Full Stack Web Developer</h5>
+        <h5>Full Stack Developer</h5>
 
         <HeaderSocials />
 
@@ -17,12 +17,12 @@ const Header = () => {
           <img src={Me} alt="me" />
         </div> */}
         <div className="me-2">
-          <h1 className="text-light">I build things for the web</h1>
+          <h1 className="text-light">I make and break software</h1>
           <h4>
-            " Hey! I'm a final year engineering undergraduate at Delhi
+            " Hey! I'm Anirudh, a new engineering undergraduate from Delhi
             Technological University, India. I'm an aspiring Software Engineer,
-            currently focused on specializing in Web Development and building
-            accessible, human-centered products. "{" "}
+            with extensive experience in full stack development and more than 9
+            months of internship experience "{" "}
           </h4>
         </div>
 

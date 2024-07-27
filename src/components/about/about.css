@@ -21,7 +21,7 @@
 .about_me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(4deg);
+  transform: rotate(-3deg);
 }
 
 .about_cards {

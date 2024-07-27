@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/me.jpg";
+import Me from "../../assets/me.jpeg";
 import { FaAward } from "react-icons/fa";
 
 const About = () => {
@@ -26,16 +26,17 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Projects</h5>
-              <small>10+ WebDev projects</small>
+              <small>10+ Full Stack projects</small>
             </article>
           </div>
 
           <p>
-            My name is Anirudh and I'm currently a student specializing in
-            building Full-Stack Web applications. I started web development in
-            my freshman year and have acquired a strong knowledge in this domain
-            over time. I wish to gain maximum expertise in this field and work
-            as a software engineer post my graduation in 2024.
+            I am a recent
+            B.Tech graduate with a strong foundation in Full Stack Development,
+            driven by a passion for creating efficient and user-friendly
+            software solutions. Throughout my academic journey, I have honed my
+            skills in various programming languages and frameworks, enabling me
+            to design, develop, and deploy robust web applications
           </p>
         </div>
       </div>
